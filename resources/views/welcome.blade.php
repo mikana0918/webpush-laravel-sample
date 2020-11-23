@@ -129,4 +129,28 @@
             </div>
         </div>
     </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyDcXGXzCXZANNyOHe0WF90zY5gvspegKYg",
+        authDomain: "push-notification-sample-1a595.firebaseapp.com",
+        databaseURL: "https://push-notification-sample-1a595.firebaseio.com",
+        projectId: "push-notification-sample-1a595",
+        storageBucket: "push-notification-sample-1a595.appspot.com",
+        messagingSenderId: "151216887081",
+        appId: "1:151216887081:web:5def799426fe2f44dad338",
+        measurementId: "G-YNG012NQDE"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </html>
